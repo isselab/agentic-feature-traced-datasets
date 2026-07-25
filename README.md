@@ -5,9 +5,7 @@ This repository is a reference repository for Agent-HAnS evaluation datasets.
 ## Datasets
 
 <!-- DATASETS:START -->
-
 _No datasets are registered yet._
-
 <!-- DATASETS:END -->
 
 ## Clone the collection
