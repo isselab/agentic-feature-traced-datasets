@@ -30,7 +30,6 @@ From a clean checkout of this parent:
 git checkout -b add/<dataset-name>
 git submodule add https://github.com/isselab/<dataset-name>.git datasets/<dataset-name>
 python scripts/render_catalog.py
-python scripts/validate_catalog.py
 git add .gitmodules README.md datasets/<dataset-name>
 git commit -m "Add <dataset-name> dataset"
 git push --set-upstream origin add/<dataset-name>

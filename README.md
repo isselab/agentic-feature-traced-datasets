@@ -5,7 +5,9 @@ This repository is a reference repository for Agent-HAnS evaluation datasets.
 ## Datasets
 
 <!-- DATASETS:START -->
+
 _No datasets are registered yet._
+
 <!-- DATASETS:END -->
 
 ## Clone the collection
@@ -72,7 +74,6 @@ this parent repository after reviewing them.
 
 ```bash
 git submodule update --init --recursive
-python scripts/validate_catalog.py
 python scripts/render_catalog.py --check
 ```
 
