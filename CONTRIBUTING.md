@@ -2,14 +2,18 @@
 
 ## Preferred: create from the template
 
-1. Ensure the organization Actions secret `PARENT_REPO_PAT` is available to
-   the repositories that will be created from the template.
+1. In **Organization settings -> Secrets and variables -> Actions**, ensure the
+   `PARENT_REPO_PAT` organization secret exists. For zero-touch creation, give
+   it access to **All repositories**. For tighter access, select each generated
+   repository after creation and rerun its **Sync parent submodule pointer**
+   workflow.
 2. Open
    [`isselab/agentic-dataset-template`](https://github.com/isselab/agentic-dataset-template)
    and select **Use this template → Create a new repository**.
 3. Create the repository in `isselab`, preferably public, with a unique name
    containing only letters, digits, periods, underscores, and hyphens.
-4. Wait for **Bootstrap dataset repository** to finish.
+4. Wait for **Bootstrap dataset repository** and **Sync parent submodule
+   pointer** to finish.
 5. Review its pull request in this repository and merge it after catalog
    validation succeeds.
 6. Replace the initial project, evolution-step skeleton, prompts, ground truth,
