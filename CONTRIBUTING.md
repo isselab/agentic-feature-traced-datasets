@@ -25,9 +25,9 @@
 
 GitHub does not copy Actions secrets from a template. `PARENT_REPO_PAT` should
 therefore be an organization-level Actions secret made available to the
-generated repository. It should be a fine-grained token restricted to this
-parent repository with **Contents: read and write** and **Pull requests: read
-and write**.
+generated repository. It should be an organization-approved fine-grained token
+with resource owner `isselab`, restricted to this parent repository with
+**Contents: read and write** and **Pull requests: read and write**.
 
 ## Manual fallback
 
