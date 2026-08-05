@@ -10,8 +10,11 @@
 2. Open
    [`isselab/agentic-dataset-template`](https://github.com/isselab/agentic-dataset-template)
    and select **Use this template → Create a new repository**.
-3. Create the repository in `isselab`, preferably public, with a unique name
+3. Create the repository in `isselab` as **public**, with a unique name
    containing only letters, digits, periods, underscores, and hyphens.
+   `isselab` uses GitHub Free, which does not make organization Actions secrets
+   available to private repositories. A private dataset instead requires a
+   repository-level `PARENT_REPO_PAT` secret or GitHub Team.
 4. Wait for **Bootstrap dataset repository** and **Sync parent submodule
    pointer** to finish.
 5. Review its pull request in this repository and merge it after catalog
