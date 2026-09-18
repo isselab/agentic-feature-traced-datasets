@@ -1,0 +1,3 @@
+[submodule "datasets/dataset-task-manager"]
+	path = datasets/dataset-task-manager
+	url = https://github.com/isselab/dataset-task-manager.git
