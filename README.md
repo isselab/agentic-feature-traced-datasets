@@ -5,7 +5,9 @@ This repository is a reference repository for Agent-HAnS evaluation datasets.
 ## Datasets
 
 <!-- DATASETS:START -->
-_No datasets are registered yet._
+| Dataset | Repository | Local path |
+|---|---|---|
+| `datasets/dataset-task-manager` | [https://github.com/isselab/dataset-task-manager](https://github.com/isselab/dataset-task-manager) | `datasets/dataset-task-manager` |
 <!-- DATASETS:END -->
 
 ## Clone the collection
